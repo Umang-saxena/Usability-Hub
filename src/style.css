@@ -25,13 +25,13 @@ body{
 
 /* Utility Classes */
 h1{
-    size: 3rem;
+    font-size: 3rem;
 }
 h2{
-    size: 2rem;
+    font-size: 2rem;
 }
 h3{
-    size: 105rem;
+    font-size: 105rem;
 }
 p{
     font-family: "Roboto",'sans-serif';
@@ -54,7 +54,7 @@ ul {
 }
 
 .container{
-    max-width: 11800px;
+    max-width: 1180px;
     margin-inline:auto;
     padding-inline:var(--padding-inline-section);
 }
@@ -122,4 +122,32 @@ ul {
 }
 .company-logo img{
     width: 200px;
+}
+/* Header */
+header{
+    padding: 50px var(--padding-inline-section) 0px;
+}
+.header-section{
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.header-left{
+    max-width: 40vw;
+}
+.header-left h1{
+    margin-top: 20px;
+}
+
+.header-right img{
+    width: 600px;
+}
+.header-left p{
+    margin-top: 20px;
+}
+.header-left a{
+    margin-top: 20px;
+}
+.get-started-btn{
+    margin-top: 20px;
 }
