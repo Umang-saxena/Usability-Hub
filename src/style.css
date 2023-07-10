@@ -31,7 +31,7 @@ h2{
     font-size: 2rem;
 }
 h3{
-    font-size: 105rem;
+    font-size: 1.5rem;
 }
 p{
     font-family: "Roboto",'sans-serif';
@@ -163,4 +163,33 @@ header{
 }
 .logo{
     height: 46px;
+}
+
+/* Features Section */
+.features-section{
+    padding: 80px var(--padding-inline-section) 0px;
+    
+}
+.features-header{
+    text-align: center;
+}
+.feature{
+    background:url(/assets/asset\ 34.svg) no-repeat center;
+    background-size:53rem;
+
+}
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.features-header h2{
+    margin-bottom:20px ;
+}
+.features-card{
+    flex-direction:column;
+    gap:20px;
+    max-width: 30%;
 }
