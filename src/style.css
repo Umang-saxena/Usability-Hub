@@ -252,3 +252,51 @@ margin-top: 20px;
 .profile-desc h5{
     font-weight: 300;
 }
+
+/* Examples Section */
+.examples-header{
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.examples-card{
+    width:23%;
+    min-height:300px;
+    position:relative;
+}
+.card-background-first{
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(/assets/asset\ 36.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-background-second{
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(/assets/asset\ 37.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-background-third{
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(/assets/asset\ 38.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-background-fourth{
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(/assets/asset\ 39.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-text{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.examples-area{
+    /* gap: 20px; */
+    justify-content: space-around;
+    margin-top: 20px;
+}
