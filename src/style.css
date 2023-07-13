@@ -380,5 +380,27 @@ margin-top: 20px;
 }
 .cta-two a {
     font-size: 18px;
+    display: block;
     font-weight: 400;
+}
+
+/* Footer Section */
+.footer-container{
+    gap: 20px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+footer{
+    background-color: #ebf2fa;
+}
+.company-logo a img{
+    margin-top: 50px;
+}
+.link-coloumn{
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
 }
