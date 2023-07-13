@@ -312,7 +312,7 @@ margin-top: 20px;
     background-color: #183b54;
     padding: 25px 0 25px 0;
     color: white;
-    height: 700px;
+    height: 760px;
 }
 .cta-container{
     justify-content: space-around;
@@ -366,4 +366,19 @@ margin-top: 20px;
 }
 .learn-btn{
     margin:0 0 10px 20px ;
+}
+/* CTA 2 */
+.cta-two{
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 10%;
+}
+.cta-two h3{
+    color: #577592;
+    font-weight: 300;
+    font-size: 1.4rem !important;
+}
+.cta-two a {
+    font-size: 18px;
+    font-weight: 400;
 }
