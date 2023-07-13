@@ -404,3 +404,12 @@ footer{
     gap: 20px;
     align-items: flex-start;
 }
+/* Sub footer */
+.subfooter{
+    background-color: #b9cde4;
+}
+.subfooter-container{
+    padding: var(--padding-inline-section);
+    gap: 30px;
+    justify-content: center;
+}
