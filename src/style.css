@@ -56,6 +56,7 @@ ul {
 .container{
     max-width: 1180px;
     margin-inline:auto;
+    overflow: hidden;
     padding-inline:var(--padding-inline-section);
 }
 .flex{
@@ -120,6 +121,9 @@ ul {
 .nav-links{
     flex-basis: 730px;
 }
+.nav-toggle{
+    display: none;
+}
 .company-logo img{
     width: 200px;
 }
@@ -140,7 +144,7 @@ header{
 }
 
 .header-right img{
-    width: 600px;
+    width: 100%
 }
 .header-left p{
     margin-top: 20px;
@@ -158,8 +162,9 @@ header{
     color: var(--primary-text-color);
 }
 .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .logo{
     height: 46px;
@@ -182,7 +187,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
-    gap: 40px;
+    gap: 20px;
     margin-top: 20px;
 }
 .features-header h2{
@@ -259,6 +264,12 @@ margin-top: 20px;
     flex-direction: column;
     gap: 20px;
 }
+.examples-area{
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 .examples-card{
     width:23%;
     min-height:300px;
@@ -298,11 +309,6 @@ margin-top: 20px;
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.2;
-}
-.examples-area{
-    /* gap: 20px; */
-    justify-content: space-around;
-    margin-top: 20px;
 }
 
 /* CTA Section */
@@ -413,3 +419,4 @@ footer{
     gap: 30px;
     justify-content: center;
 }
+
