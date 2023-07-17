@@ -78,6 +78,7 @@ ul {
     color: white !important;
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color) ;
+    text-align: center;
 }
 .primary-button:hover{
     background-color: var(--ascent-color-dark);
@@ -205,6 +206,9 @@ header{
 }
 .big-feature-container{
     gap: 30px;
+}
+#second-big-feature{
+    flex-direction: row-reverse;
 }
 .features-img img{
     width: 100%;
