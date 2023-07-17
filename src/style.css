@@ -114,6 +114,7 @@ ul {
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
 }
 .nav-links ul {
     justify-content: end;
@@ -178,6 +179,7 @@ header{
 }
 .features-header{
     text-align: center;
+    margin-bottom: 40px;
 }
 .feature{
     background:url(/assets/asset\ 34.svg) no-repeat center;
@@ -382,6 +384,7 @@ margin-top: 20px;
     flex-direction: column;
     gap: 50px;
     margin-top: 10%;
+    text-align: center;
 }
 .cta-two h3{
     color: #577592;

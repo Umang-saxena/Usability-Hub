@@ -24,7 +24,7 @@
             <a href="./error.html" class="company-logo">
                 <img src="./assets/asset 1.png" alt="Company Logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <ul class= "flex">
                     <li><a href="./error.html" class="hover-link">Products</a></li>
                     <li><a href="./error.html" class="hover-link">Customer</a></li>
@@ -34,7 +34,7 @@
                     <li><a href="./error.html" class="hover-link primary-button">Sign up</a></li>
                 </ul>
             </div>
-            <a class="nav-toggle hover-link">
+            <a class="nav-toggle hover-link" id="nav-toggle">
                 <i class="fa-sharp fa-solid fa-bars"></i>
             </a>
         </div>
@@ -370,5 +370,12 @@
     </div>
 
     <script src="https://kit.fontawesome.com/2026b16548.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton=document.getElementById("nav-toggle");
+        const navLinks=document.getElementById("nav-links");
+        toggleButton.addEventListener('click',()=>{
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
